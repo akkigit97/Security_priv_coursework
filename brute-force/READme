@@ -1,0 +1,11 @@
+
+------------------------------------------------------------------------------------------------------------------
+How to simulate brute-force attack:
+1. Download the folder. 
+2. Wordlist.txt contains the combinations of usernames and passwords.
+3. Run attack.py script. 
+4. This should try all combos on the IoT website. 
+Once it hits a correct one (e.g., iot:admin123), it will stop and show success.
+
+This shows how brute force attacks are carried out for websites. 
+-------------------------------------------------------------------------------------------------------------------

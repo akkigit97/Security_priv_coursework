@@ -3,8 +3,8 @@
 ------------------------------------------------------------------------------------------------------------------
 How to simulate brute-force attack:
 1. Download the folder. 
-2. Wordlist.txt contains the combinations of usernames and passwords.
-3. Run attack.py script. 
+2. Move the .py file to your working directory 
+3. Run it on the virtual environment for the project.
 4. This should try all combos on the IoT website. 
 Once it hits a correct one (e.g., iot:admin123), it will stop and show success.
 

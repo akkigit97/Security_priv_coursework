@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from flask import Flask, request, make_response, session, redirect, url_for
 from functools import wraps
 import time

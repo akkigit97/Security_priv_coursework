@@ -48,10 +48,3 @@ python security_defenses_implementation.py
 pytest test_security_defenses.py
 ```
 
-## Contributing
-
-Feel free to open issues or pull requests to improve simulations or defenses.
-
-## License
-
-Specify the license information here, if any.

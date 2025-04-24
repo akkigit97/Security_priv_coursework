@@ -75,9 +75,9 @@ Credentials are encrypted
 
 Bettercap will not capture login data unless:
 
-You use `https.proxy on`
+- You use `https.proxy on`
 
-The victim trusts Bettercap's MITM certificate
+- The victim trusts Bettercap's MITM certificate
 
 
 

@@ -68,6 +68,16 @@ In the Bettercap terminal or Web UI (Events), you will see:
 `[net.sniff.http.request] POST /login
 　username=XXXX&password=YYYY`
 
+### 🔒Defense with HTTPS
+Once the server is upgraded to HTTPS (`https://192.168.1.108:8443`):
+
+Credentials are encrypted
+
+Bettercap will not capture login data unless:
+
+You use `https.proxy on`
+
+The victim trusts Bettercap's MITM certificate
 
 
 

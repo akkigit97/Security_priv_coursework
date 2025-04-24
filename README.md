@@ -1,12 +1,57 @@
-# Security_privacy_coursework_Group 4
+# Security Privacy Coursework - Group 4
 
-This repository contains code for simulating various attacks on a mock website that handles IoT devices for a household.
+This repository contains code for simulating various security attacks on a mock IoT device management web application, as well as implementations of defense strategies.
 
-Each folder contains the scripts for simulating the respective attacks. 
-There is a READme file in each folder that contains the instructions for running the scripts on a local machine.
+## Repository Structure
 
-The requirements.txt file contains all the necessary libraries and extensions. 
+- `Local server html/`: HTML files for running the local mock IoT device management site.
+- `DDoS/`: Scripts to simulate distributed denial-of-service attacks.
+- `brute force/` and `brute-force/`: Scripts to simulate brute-force attacks. Refer to each folder's README for details.
+- `phishing-demo/`: Demonstration scripts for phishing attack simulations.
+- `XSS/`: Cross-site scripting attack simulations.
+- `MITM/`: Man-in-the-middle attack simulations.
+- `Defense_strategy_implementation/`: Code implementing various defense strategies.
+  - `security_defenses_implementation.py`: Main implementation of defense mechanisms.
+  - `test_security_defenses.py`: Unit tests for the defense implementations.
+- `Simulation Presentation/`: Presentation slides and materials for the simulation project.
 
-Create a virtual environment for the working directory and run pip install requirements.txt
+## Prerequisites
 
-Make sure all the python files are executed on the virtual environment that is created for this project
+- Python 3.7 or higher
+- `pip` package manager
+
+## Setup
+
+1. Clone the repository.
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Running the Simulations
+
+Navigate to the respective folder and follow its README instructions. For example:
+```bash
+cd DDoS
+python ddos_attack.py
+```
+
+## Running Defense Implementations
+
+```bash
+python security_defenses_implementation.py
+pytest test_security_defenses.py
+```
+
+## Contributing
+
+Feel free to open issues or pull requests to improve simulations or defenses.
+
+## License
+
+Specify the license information here, if any.

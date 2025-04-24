@@ -45,6 +45,5 @@ python ddos_attack.py
 
 ```bash
 python security_defenses_implementation.py
-pytest test_security_defenses.py
 ```
 

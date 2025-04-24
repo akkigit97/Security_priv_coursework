@@ -69,9 +69,10 @@ In the Bettercap terminal or Web UI (Events), you will see:
 　username=XXXX&password=YYYY`
 
 ### 🔒Defense with HTTPS
-Once the server is upgraded to HTTPS (`https://192.168.1.108:8443`):
 
-Credentials are encrypted
+Uncomment the `ssl_context` line in `server.py` and run:`python server.py`
+
+Once the server is upgraded to HTTPS, credentials are encrypted
 
 Bettercap will not capture login data unless:
 
